@@ -403,6 +403,7 @@ GameObject:
   - component: {fileID: 1572263117}
   - component: {fileID: 1572263116}
   - component: {fileID: 1572263118}
+  - component: {fileID: 1572263119}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -450,6 +451,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caeceacb624484daf8e379c2252fd246, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FacePrefab: {fileID: 4369094357992054874, guid: dcdbdc3890cd0de46ac581e28b1042c4,
-    type: 3}
+  m_FacePrefab: {fileID: 0}
   m_MaximumFaceCount: 3
+--- !u!114 &1572263119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572263115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a74e239bf4a464e1081ac63b78faf369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eyebrow: {fileID: 8658278835687897102, guid: 6feda1d0dac5546fea79ca7354d23440, type: 3}
+  nose: {fileID: 1689801421788405574, guid: 6d206286593a74853af9bd87178988d3, type: 3}
