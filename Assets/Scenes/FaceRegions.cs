@@ -15,7 +15,8 @@ using UnityEngine.XR.ARCore;
 [RequireComponent(typeof(ARSessionOrigin))]
 public class FaceRegions : MonoBehaviour
 {
-    public GameObject eyebrow;
+    public GameObject leftEyebrow;
+    public GameObject rightEyebrow;
     public GameObject nose;
 
     ARFaceManager m_FaceManager;
@@ -58,9 +59,13 @@ public class FaceRegions : MonoBehaviour
                 GameObject go;
                 if (!regionGos.TryGetValue(regionType, out go))
                 {
-                    if ((int)regionType == 1 || (int)regionType == 2)
+                    if ((int)regionType == 1)
                     {
-                        go = Instantiate(eyebrow, m_SessionOrigin.trackablesParent);
+                        go = Instantiate(leftEyebrow, m_SessionOrigin.trackablesParent);
+                    }
+                    else if ((int)regionType == 2)
+                    {
+                        go = Instantiate(rightEyebrow, m_SessionOrigin.trackablesParent);
                     }
                     else
                     {
