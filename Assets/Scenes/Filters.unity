@@ -166,9 +166,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a74e239bf4a464e1081ac63b78faf369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftEyebrow: {fileID: 0}
-  rightEyebrow: {fileID: 0}
-  nose: {fileID: 0}
+  leftEyebrow: {fileID: 7953399226100546063, guid: dfbf1fdae674771429960e84cffd06c4,
+    type: 3}
+  rightEyebrow: {fileID: 7953399226100546063, guid: dfbf1fdae674771429960e84cffd06c4,
+    type: 3}
+  nose: {fileID: 1658146680895371025, guid: 20164c03f844a2748b9cb54d58eb0664, type: 3}
 --- !u!114 &262148084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,7 +216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &370570507
 Transform:
   m_ObjectHideFlags: 0
@@ -469,9 +471,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a74e239bf4a464e1081ac63b78faf369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftEyebrow: {fileID: 0}
-  rightEyebrow: {fileID: 0}
-  nose: {fileID: 0}
+  leftEyebrow: {fileID: 7953399226100546063, guid: dfbf1fdae674771429960e84cffd06c4,
+    type: 3}
+  rightEyebrow: {fileID: 7953399226100546063, guid: dfbf1fdae674771429960e84cffd06c4,
+    type: 3}
+  nose: {fileID: 7116097388649930516, guid: 2aa20ed1b7bd8a9438d1c4ab1158170a, type: 3}
 --- !u!114 &762265060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -517,7 +521,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1456577966
 Transform:
   m_ObjectHideFlags: 0
@@ -544,9 +548,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a74e239bf4a464e1081ac63b78faf369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftEyebrow: {fileID: 0}
-  rightEyebrow: {fileID: 0}
-  nose: {fileID: 0}
+  leftEyebrow: {fileID: 6007578340033029487, guid: 589f15e9fbaed8f4cb6666b6969a2d5e,
+    type: 3}
+  rightEyebrow: {fileID: 7953399226100546063, guid: dfbf1fdae674771429960e84cffd06c4,
+    type: 3}
+  nose: {fileID: 2427663622282841560, guid: 4768685f1f0fa3640b9bbf391afb4e5d, type: 3}
 --- !u!114 &1456577968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -770,9 +776,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a74e239bf4a464e1081ac63b78faf369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftEyebrow: {fileID: 0}
-  rightEyebrow: {fileID: 0}
-  nose: {fileID: 0}
+  leftEyebrow: {fileID: 2849161930434679316, guid: 35e18bf4cac8f2f44b80bfd4e1e80d17,
+    type: 3}
+  rightEyebrow: {fileID: 4534010043698454449, guid: cbc58ac6cd86ade4a90c44d8c66ecbce,
+    type: 3}
+  nose: {fileID: 5897204460054275131, guid: a0bf1a3bdf4760543a360c4a4b602fb2, type: 3}
 --- !u!114 &1741038881
 MonoBehaviour:
   m_ObjectHideFlags: 0
